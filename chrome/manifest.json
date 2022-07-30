@@ -1,0 +1,16 @@
+{
+  "name": "Extensão para SIGAA",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {},
+  "host_permissions": [ "https://sigaa.ufrn.br/sigaa/portais/docente/docente.jsf" ],
+  "content_scripts": [{
+      "matches": ["https://sigaa.ufrn.br/sigaa/portais/docente/docente.jsf"],
+      "js": ["menufrequente.js"]
+  }],
+  "action": {}
+}
