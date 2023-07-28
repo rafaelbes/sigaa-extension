@@ -1,4 +1,6 @@
-- Extensão para agilizar o uso do SIGAA no Firefox e Chrome.
+- Extensão para agilizar o uso do SIGAA no Firefox e Chrome. Especificamente criei essa extensão para contornar duas dificuldades no uso da interface do SIGAA:
+	- Automaticamente selecionar um dos vínculos. Não faz sentido ficar selecionando dentre uma única opção sempre.
+	- Exibir itens de menu que uso frequentemente, uma vez que o menu do SIGAA é de difícil uso (principalmente quando precisa acessar um item que está em um nível profundo, basta um passo em falso com o mouse para sair de todo o menu)
 - Tenho usado a versão no Firefox, então essa tem mais chances de estar atualizada do que a versão em Chrome.
 
 # Funcionamento
