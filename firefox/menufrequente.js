@@ -22,3 +22,12 @@ document.getElementById("main-docente").insertBefore(m3, document.getElementById
 document.getElementById("main-docente").insertBefore(m4, document.getElementById("noticias-portal"));
 document.getElementById("main-docente").insertBefore(m5, document.getElementById("noticias-portal"));
 document.getElementById("noticias-portal").remove();
+
+//remove o banner que consta na página inicial
+//há vários simple-panel, porém só o do banner não contém id
+const elementsToRemove = document.querySelectorAll(".simple-panel");
+elementsToRemove.forEach((element) => {
+	if(!element.id) {
+	  element.remove();
+	}
+});
